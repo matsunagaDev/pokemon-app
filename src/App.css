@@ -11,3 +11,27 @@
   gap: 20px;
   margin-top: 20px;
 }
+
+.btn {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn button {
+  padding: 13px 32px;
+  background-color: #5257a3;
+  border: none;
+  box-shadow: -2px 14px 72px -5px #777777;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn button:hover {
+  transform: translate(-5px);
+  box-shadow: none;
+}
